@@ -34,6 +34,36 @@
       "id": "19f2",
       "username": "Mohamed ",
       "password": "0987654321"
+    },
+    {
+      "id": "3dd9",
+      "username": "mohamed",
+      "password": "123456789"
+    },
+    {
+      "id": "eec8",
+      "username": "norhan",
+      "password": "123456789"
+    },
+    {
+      "id": "9f0c",
+      "username": "Nor",
+      "password": "0987654321"
+    },
+    {
+      "id": "1006",
+      "username": "hh",
+      "password": "123098"
+    },
+    {
+      "id": "5eaa",
+      "username": "Mona Ali",
+      "password": "12345678910"
+    },
+    {
+      "id": "ac8e",
+      "username": "Abrar",
+      "password": "10203040"
     }
   ],
   "todos": [
@@ -46,15 +76,6 @@
       "id": "5343",
       "name": "task two",
       "userId": "923a"
-    },
-    {
-      "name": "task",
-      "id": "c7ae"
-    },
-    {
-      "id": "10fc",
-      "name": "t3",
-      "userId": "c4f3"
     },
     {
       "id": "0a32",
