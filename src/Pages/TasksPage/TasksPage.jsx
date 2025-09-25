@@ -148,10 +148,10 @@ return (
                 type="text"
                 value={task}
                 onChange={(e) => setTask(e.target.value)}
-            />
-            <button className="btn-tasks" onClick={handelAddTasks}>
-                Add
-            </button>
+                />
+                <button className="btn-tasks" onClick={handelAddTasks}>
+                    Add
+                </button>
             </div>
             <div className="list-of-tasks">
                     <ul>
