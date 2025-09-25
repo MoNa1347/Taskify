@@ -40,7 +40,7 @@ export default function RegisterPage() {
 
         // Save to localStorage and navigate
         localStorage.setItem('user', JSON.stringify(newUser));
-        navigate('/');
+        navigate('/landing');
     }
     } catch (error) {
         console.error('Registration error:', error);
@@ -83,7 +83,7 @@ export default function RegisterPage() {
                     <button type="submit" disabled={isSubmitting}>
                         {isSubmitting ? "Creating account..." : "Register"}
                     </button>
-                    <p>Already have an account? <Link className='bttn' to="/login">Login</Link></p>
+                    <p>Already have an account? <Link className='bttn' to="/">Login</Link></p>
                 </div>
                 </Form>
             )}

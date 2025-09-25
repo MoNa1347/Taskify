@@ -119,7 +119,7 @@ return (
     <div className="container-tasks pt-4 p-4">
         <div className="title">
             <h3>My Tasks Board</h3>
-            <button className="btn-landing" onClick={() => navigate("/login")}>
+            <button className="btn-landing" onClick={() => navigate("/")}>
                 Logout
             </button>
         </div>

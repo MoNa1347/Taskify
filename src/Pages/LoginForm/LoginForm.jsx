@@ -28,7 +28,7 @@ export default function LoginForm() {
     if (users.length > 0) {
         const user = users[0];
         localStorage.setItem('user', JSON.stringify(user));
-        navigate('/');
+        navigate('/landing');
     } else {
         setFieldError('username', 'Invalid username or password');
     }

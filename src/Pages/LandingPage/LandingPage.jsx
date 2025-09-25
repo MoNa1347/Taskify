@@ -21,7 +21,7 @@ export default function LandingPage() {
 
   const handleLogout = () => {
     localStorage.removeItem("user"); 
-    navigate("/login"); 
+    navigate("/"); 
   };
 
   return (
