@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-color: #f8f0f1;
+  width: 100%;
+  min-height: 100vh;
+}

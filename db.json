@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "mona",
+      "password": "123456"
+    },
+    {
+      "id": "ba7c",
+      "username": "Mohamed Salama",
+      "password": "22112002"
+    },
+    {
+      "id": "1a73",
+      "username": "Huda Qasem",
+      "password": "12345678"
+    },
+    {
+      "id": "18be",
+      "username": "mona ali",
+      "password": "123456"
+    },
+    {
+      "id": "c4f3",
+      "username": "menna",
+      "password": "0123456789"
+    },
+    {
+      "id": "923a",
+      "username": "ali",
+      "password": "123456789"
+    },
+    {
+      "id": "19f2",
+      "username": "Mohamed ",
+      "password": "0987654321"
+    }
+  ],
+  "todos": [
+    {
+      "id": "604e",
+      "name": "task one",
+      "userId": "923a"
+    },
+    {
+      "id": "5343",
+      "name": "task two",
+      "userId": "923a"
+    },
+    {
+      "name": "task",
+      "id": "c7ae"
+    },
+    {
+      "id": "10fc",
+      "name": "t3",
+      "userId": "c4f3"
+    },
+    {
+      "id": "0a32",
+      "name": "tt",
+      "userId": "923a"
+    }
+  ]
+}
