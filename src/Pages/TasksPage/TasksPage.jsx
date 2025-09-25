@@ -153,6 +153,22 @@ return (
                 Add
             </button>
             </div>
+            <div className="list-of-tasks">
+                    <ul>
+                        {listTasks.length > 0 &&
+                            listTasks.map((item, index) => (
+                                <li key={index} className="d-flex justify-content-between">
+                                    {item.name}
+                                    <button
+                                        className="delete-btn"
+                                        onClick={() => handelDeleteTask(item.id)}
+                                    >
+                                        <FontAwesomeIcon icon={faXmark} />
+                                    </button>
+                                </li>
+                            ))}
+                    </ul>
+                </div>
         </div>
         )}
 
