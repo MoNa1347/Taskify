@@ -25,10 +25,10 @@
     animation: fadeInUp 1.5s ease-in-out;
 }
 
-/* الحاوية بتاعة الزراير */
+
 .btn {
     display: flex;
-    flex-direction: column; /* زرارين تحت بعض */
+    flex-direction: column; 
     align-items: center;
 }
 
@@ -37,8 +37,8 @@
     display: block;
     width: 200px;
     margin-bottom: 15px;
-    opacity: 0; /* يبدأوا مخفيين */
-    transform: translateX(-100px); /* ييجوا من الشمال */
+    opacity: 0;
+    transform: translateX(-100px); 
     animation: slideFromLeft 1s ease forwards;
     border: none;
     border-radius: 30px;
@@ -46,13 +46,13 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* زرار Go to Tasks */
+
 .btn-landing {
     background: linear-gradient(135deg, #bc323e, #ff4d6d);
     color: #fff;
     font-size: 1.2rem;
     padding: 12px 25px;
-    animation-delay: 0.5s; /* يظهر الأول */
+    animation-delay: 0.5s; 
 }
 
 .btn-landing:hover {
@@ -60,14 +60,14 @@
     box-shadow: 0 0 15px rgba(188, 50, 62, 0.6);
 }
 
-/* زرار Logout */
+
 .btn-logout {
     width: 150px;
     background: linear-gradient(135deg, #444, #777);
     color: #fff;
     font-size: 1rem;
     padding: 10px 20px;
-    animation-delay: 1s; /* يظهر بعد Go to Tasks */
+    animation-delay: 1s; 
     margin: auto;
 }
 
@@ -76,7 +76,6 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
-/* Animation keyframes */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
